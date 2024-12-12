@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <div id="container">
+        <div class="drop-zone" data-suit="hearts" role="region" aria-label="Zona para corazones">Corazones</div>
+        <div class="drop-zone" data-suit="diamonds" role="region" aria-label="Zona para diamantes">Diamantes</div>
+        <div class="drop-zone" data-suit="clubs" role="region" aria-label="Zona para tréboles">Tréboles</div>
+        <div class="drop-zone" data-suit="spades" role="region" aria-label="Zona para picas">Picas</div>
+    </div>
+
+    <section id="cards">
+        <h2>Cartas disponibles</h2>
+        <div class="card" draggable="true" data-suit="hearts">A ♥</div>
+        <div class="card" draggable="true" data-suit="diamonds">K ♦</div>
+        <div class="card" draggable="true" data-suit="clubs">Q ♣</div>
+        <div class="card" draggable="true" data-suit="spades">J ♠</div>
+    </section>
+
+    <script src="./js/index.js" type="module"></script>
+</body>
+</html>
